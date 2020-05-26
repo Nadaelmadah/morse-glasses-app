@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/back"
+    tools:context=".DevicesBT">
+
+
+    <TextView
+        android:id="@+id/Idaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paired devices"
+        android:background="#DCDCDC"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textAlignment="center"
+android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="20dp"
+        android:textSize="30dp"/>
+
+    <ListView
+        android:id="@+id/Idlista"
+        android:background="#ffffff"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
